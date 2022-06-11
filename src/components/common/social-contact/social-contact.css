@@ -1,0 +1,66 @@
+.social-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4%;
+}
+.social-icon-div {
+  padding: 6px;
+  cursor: pointer;
+  margin: 6px;
+}
+.social-icon {
+  height: 40px;
+}
+
+@media only screen and (max-width: 720px) {
+  .social-icon {
+    height: 32px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .social-contact{
+    margin-top: 15%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .social-contact{
+    margin-top: 25%;
+  }
+}
+
+
+/* .social-icon-div img{
+  animation: animate 1.0s infinite;
+} */
+
+
+
+/* Specify the animation keyframes
+   to be used to move the letters */
+@keyframes animate {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-1px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Specify a slight delay for
+   each of the letters */
+
+   
+   .social-icon-div img:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.social-icon-div img:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
