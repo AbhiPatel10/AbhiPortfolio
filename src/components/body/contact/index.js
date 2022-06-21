@@ -10,12 +10,12 @@ function Contact() {
       <div className="contact-container">
         <div className="contact-left">
           <p>Want to get in touch? Contact me on any of the platform</p>
-          <SocialContact />
+          <SocialContact  class="footer-social-contact"/>
         </div>
         <div className="download">
           <a download href={require("../../../assets/AbhiPatel.pdf").default}>
-            <i class="fi-rr-cloud-download download-icon" />
-            Download Resume
+            <i class="fi-rr-cloud-download download-icon" /> &nbsp;
+             Download Resume
           </a>
         </div>
       </div>

@@ -25,10 +25,11 @@ function About() {
           <Typewriter
             words={[  
               " Font-End Devloper",
+              " Back-End Devloper",
               " MERN Stack Devloper",
               " Python Developer",
-              " Google ads Expert",
               " Freelancer"
+              // " Google ads Expert",
             ]}
             loop
             cursor
@@ -41,7 +42,7 @@ function About() {
           <div className="picture" ref={container} />
         </div>
       </div>
-      <SocialContact />
+      <SocialContact  class="social-contact"/>
     </div>
   );
 }

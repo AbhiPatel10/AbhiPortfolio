@@ -1,8 +1,11 @@
-.social-contact {
+.social-contact , .footer-social-contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 4%;
+}
+.social-contact{
+  margin-top: 80px;
+
 }
 .social-icon-div {
   padding: 6px;
@@ -13,21 +16,32 @@
   height: 40px;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 720px) and (min-width: 500px)  {
   .social-icon {
     height: 32px;
   }
+  .social-contact {
+    margin-top: 70px;
+  }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 300px) {
+  .social-icon {
+    height: 32px;
+  }
+  .social-contact {
+    margin-top: 70px;
+  }
+}
+/* @media only screen and (max-width: 500px) {
   .social-contact{
     margin-top: 15%;
   }
-}
-@media only screen and (max-width: 500px) {
+} */
+/* @media only screen and (max-width: 500px) {
   .social-contact{
-    margin-top: 25%;
+    margin-top: 65px;
   }
-}
+} */
 
 
 /* .social-icon-div img{

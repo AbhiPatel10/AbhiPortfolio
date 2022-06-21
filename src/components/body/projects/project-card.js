@@ -24,7 +24,7 @@ function ProjectCard({ project }) {
             </a>
           )}
           {project.github && (
-            <a className="project-link" href={project.github}>
+            <a className="project-link" rel="noreferrer" href={project.github}  target="_blank">
               <div className="link-button">
                 <i class="devicon-github-original colored"></i> GIthub
               </div>
