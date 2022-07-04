@@ -24,9 +24,9 @@ function About() {
           I'm
           <Typewriter
             words={[  
-              " Font-End Devloper",
-              " Back-End Devloper",
-              " MERN Stack Devloper",
+              " Front-End Developer",
+              " Back-End Developer",
+              " MERN Stack Developer",
               " Python Developer",
               " Freelancer"
               // " Google ads Expert",
