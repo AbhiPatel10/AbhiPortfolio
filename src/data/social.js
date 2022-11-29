@@ -14,7 +14,7 @@ export const SocialData = [
   {
     platform: "Linkedin",
     icon: require("../assets/icons/linkedin.png").default,
-    link: "https://www.linkedin.com/in/mrabhipatel/",
+    link: "https://www.linkedin.com/in/abhipatel001/",
     style: "animate 0.5s infinite"
   },
   {

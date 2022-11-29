@@ -3,6 +3,26 @@ export const SkillsData = [
     type: "Frontend",
     list: [
       {
+        name: "Javascript",
+        icon: <i class="devicon-javascript-plain colored"></i>,
+        // aos: "fade-down"
+      },
+      {
+        name: "ReactJS",
+        icon: <i class="devicon-react-original colored"></i>,
+        // aos: "flip-right"
+      },
+      {
+        name: "Next.js",
+        icon: <i class="devicon-nextjs-plain colored"></i>,
+        // aos: "flip-left"
+      },
+      {
+        name: "Vue.js",
+        icon: <i class="devicon-vuejs-plain colored"></i>,
+        // aos: "flip-left"
+      },
+      {
         name: "HTML",
         icon: <i class="devicon-html5-plain colored"></i>,
         // aos:"fade-right"
@@ -13,24 +33,14 @@ export const SkillsData = [
         // aos:"fade-up"
       },
       {
-        name: "Javascript",
-        icon: <i class="devicon-javascript-plain colored"></i>,
-        // aos: "fade-down"
-      },
-      {
         name: "Bootstrap",
         icon: <i class="devicon-bootstrap-plain colored"></i>,
         // aos:"fade-left"
       },
       {
-        name: "ReactJS",
-        icon: <i class="devicon-react-original colored"></i>,
-        // aos: "flip-right"
-      },
-      {
-        name: "Vue.js",
-        icon: <i class="devicon-vuejs-plain colored"></i>,
-        // aos: "flip-left"
+        name: "Tailwind CSS",
+        icon: <i class="devicon-tailwindcss-plain colored"></i>,
+        // aos:"fade-left"
       },
     ],
   },
