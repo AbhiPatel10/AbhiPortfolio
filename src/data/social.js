@@ -26,7 +26,7 @@ export const SocialData = [
   {
     platform: "Twitter",
     icon: require("../assets/icons/twitter.png").default,
-    link: "https://twitter.com/AbhiPat38814974",
+    link: "https://twitter.com/AbhiPatel0001",
     style: "animate 0.5s infinite"
   },
 ];
