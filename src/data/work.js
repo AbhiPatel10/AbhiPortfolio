@@ -1,7 +1,17 @@
 import Frontarmylogo from "../assets/image/FEAlogo.jpg"
 import Freelancer from '../assets/image/freelancer.png'
+import IBM from '../assets/image/ibm.svg'
 
 export const WorkData = [
+  {
+    company: "IBM (International Business Machines)",
+    designation: "Web development Intern",
+    dateJoining: "Feb-2023",
+    dateEnd: "Present",
+    companyLogo: IBM,
+    work: "",
+    aos:"zoom-in"
+  },
   {
     company: "Freelancing in Web Development",
     designation: "freelancer",
