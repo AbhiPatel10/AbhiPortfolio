@@ -5,7 +5,7 @@ import Footer from "../footer/index";
 import Body from "../body/index";
 function Home() {
   return (
-    <div className="home">
+    <div className="main-container">
       <div>
         <Header />
       </div>

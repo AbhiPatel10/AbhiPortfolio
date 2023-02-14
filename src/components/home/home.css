@@ -4,7 +4,7 @@ body {
 html {
   scroll-behavior: smooth;
 }
-.home {
+.main-container {
   margin: auto;
   width: 70%;
   display: flex;
@@ -12,13 +12,13 @@ html {
 }
 
 @media only screen and (max-width: 1024px) {
-  .home {
+  .main-container {
     width: 90%;
   }
 }
 
 @media only screen and (max-width: 512px) {
-  .home {
+  .main-container {
     width: 100%;
   }
 }
